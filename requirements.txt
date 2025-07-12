@@ -1,0 +1,23 @@
+# Transcripción (WhisperX y dependencias)
+whisperx==3.3.4
+ffmpeg-python>=0.2.0
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# Modelos de resumen
+transformers>=4.40.0
+sentencepiece>=0.1.99  # Necesario para modelos como t5 y bart
+protobuf>=3.20.0  # Por compatibilidad con algunos modelos
+
+# Keywords / NER
+spacy>=3.7.4
+keybert>=0.8.3
+scikit-learn>=1.4.2
+numpy>=1.26.4
+
+# Otras utilidades
+pydub>=0.25.1   # Para manipular audios
+librosa>=0.10.2
+tqdm>=4.66.4
+rich>=13.7.1    # Para CLI bonita
+yt-dlp>=2024.4.9

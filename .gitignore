@@ -1,0 +1,17 @@
+# Ignorar entorno virtual
+audios_venv/
+
+# Ignorar audios grandes
+audios/*.wav
+audios/*.mp3
+
+# Ignorar modelos grandes
+models/*.gguf
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Archivos de entorno y configuración
+.env
